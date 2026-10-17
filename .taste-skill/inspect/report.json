@@ -1,0 +1,1731 @@
+{
+ "url": "http://localhost:5173/",
+ "at": "2026-10-17T07:43:22.609Z",
+ "allow": [],
+ "viewports": [
+  {
+   "width": 1440,
+   "height": 900,
+   "load": "load",
+   "screens": 5,
+   "filled": [
+    0.91,
+    0.71,
+    0.62,
+    0.68,
+    0.87
+   ],
+   "motion": {
+    "elements": 35,
+    "css": 4,
+    "transitions": 0,
+    "scripted": 31,
+    "videos": 0,
+    "playingVideos": 0
+   },
+   "metrics": {
+    "viewport": {
+     "w": 1440,
+     "h": 900
+    },
+    "page": {
+     "height": 3745,
+     "screens": 4.2,
+     "words": 700,
+     "img": 15,
+     "video": 0,
+     "canvas": 0,
+     "svg": 40,
+     "sections": 6,
+     "horizontalOverflow": 0,
+     "overflowCulprits": [],
+     "uiFragments": 18,
+     "uiAbuse": false,
+     "realPictures": 0,
+     "videoCount": 0,
+     "uiPictures": 5,
+     "pictureSamples": [],
+     "blendText": 0,
+     "sideScrollers": 0,
+     "brokenImages": [],
+     "emoji": []
+    },
+    "hero": {
+     "text": "Public Hazards. Real-time Dispatch.",
+     "words": 4,
+     "chars": 35,
+     "lines": 2,
+     "size": 72,
+     "vw": 5,
+     "font": "Inter",
+     "weight": 900,
+     "tracking": -0.025,
+     "leading": 1,
+     "upper": false,
+     "italic": false,
+     "mono": false,
+     "align": "left",
+     "position": "left",
+     "widthRatio": 0.5,
+     "top": 170,
+     "tag": "h1",
+     "kind": "heading"
+    },
+    "h1": {
+     "text": "Public Hazards. Real-time Dispatch.",
+     "words": 4,
+     "lines": 2,
+     "size": 72,
+     "font": "Inter"
+    },
+    "headings": [
+     {
+      "text": "Public Hazards. Real-time Dispatch.",
+      "words": 4,
+      "chars": 35,
+      "lines": 2,
+      "size": 72,
+      "vw": 5,
+      "font": "Inter",
+      "weight": 900,
+      "tracking": -0.025,
+      "leading": 1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.5,
+      "top": 170,
+      "tag": "h1",
+      "kind": "heading"
+     },
+     {
+      "text": "Municipal Operations Telemetry",
+      "words": 3,
+      "chars": 30,
+      "lines": 1,
+      "size": 30,
+      "vw": 2.1,
+      "font": "Inter",
+      "weight": 900,
+      "tracking": 0,
+      "leading": 1.2,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.47,
+      "top": 846,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "5",
+      "words": 1,
+      "chars": 1,
+      "lines": 1,
+      "size": 48,
+      "vw": 3.3,
+      "font": "Inter",
+      "weight": 900,
+      "tracking": 0,
+      "leading": 1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.18,
+      "top": 982,
+      "tag": "span",
+      "kind": "heading"
+     },
+     {
+      "text": "3",
+      "words": 1,
+      "chars": 1,
+      "lines": 1,
+      "size": 48,
+      "vw": 3.3,
+      "font": "Inter",
+      "weight": 900,
+      "tracking": 0,
+      "leading": 1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.18,
+      "top": 982,
+      "tag": "span",
+      "kind": "heading"
+     },
+     {
+      "text": "2",
+      "words": 1,
+      "chars": 1,
+      "lines": 1,
+      "size": 48,
+      "vw": 3.3,
+      "font": "Inter",
+      "weight": 900,
+      "tracking": 0,
+      "leading": 1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.18,
+      "top": 982,
+      "tag": "span",
+      "kind": "heading"
+     },
+     {
+      "text": "1",
+      "words": 1,
+      "chars": 1,
+      "lines": 1,
+      "size": 48,
+      "vw": 3.3,
+      "font": "Inter",
+      "weight": 900,
+      "tracking": 0,
+      "leading": 1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.18,
+      "top": 982,
+      "tag": "span",
+      "kind": "heading"
+     },
+     {
+      "text": "Monthly District Capacity",
+      "words": 3,
+      "chars": 25,
+      "lines": 1,
+      "size": 36,
+      "vw": 2.5,
+      "font": "Inter",
+      "weight": 900,
+      "tracking": 0,
+      "leading": 1.11,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.38,
+      "top": 1289,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "1444",
+      "words": 1,
+      "chars": 4,
+      "lines": 1,
+      "size": 48,
+      "vw": 3.3,
+      "font": "Inter",
+      "weight": 900,
+      "tracking": 0,
+      "leading": 1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.15,
+      "top": 1310,
+      "tag": "span",
+      "kind": "heading"
+     },
+     {
+      "text": "3.9d",
+      "words": 1,
+      "chars": 4,
+      "lines": 1,
+      "size": 48,
+      "vw": 3.3,
+      "font": "Inter",
+      "weight": 900,
+      "tracking": 0,
+      "leading": 1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.15,
+      "top": 1310,
+      "tag": "span",
+      "kind": "heading"
+     },
+     {
+      "text": "From Citizen Report to Certified Repair",
+      "words": 6,
+      "chars": 39,
+      "lines": 2,
+      "size": 36,
+      "vw": 2.5,
+      "font": "Inter",
+      "weight": 900,
+      "tracking": 0,
+      "leading": 1.11,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.34,
+      "top": 1678,
+      "tag": "h2",
+      "kind": "heading"
+     }
+    ],
+    "headingSummary": {
+     "count": 10,
+     "maxLines": 2,
+     "over2Lines": 0,
+     "statements": 0,
+     "centered": 0,
+     "medianWords": 1,
+     "mixedFontHeadings": 0
+    },
+    "type": {
+     "families": [
+      {
+       "family": "Inter",
+       "share": 0.99,
+       "mono": false
+      },
+      {
+       "family": "Helvetica Neue",
+       "share": 0.01,
+       "mono": false
+      },
+      {
+       "family": "Lucida Console",
+       "share": 0,
+       "mono": true
+      }
+     ],
+     "familyCount": 3,
+     "sizes": [
+      10,
+      11,
+      12,
+      14,
+      16,
+      20,
+      24,
+      30,
+      36,
+      48,
+      72
+     ],
+     "sizeCount": 11,
+     "notLoaded": [
+      "Lucida Console"
+     ],
+     "body": {
+      "font": "Inter",
+      "size": 16,
+      "leading": 1.5,
+      "weight": 400,
+      "tracking": 0,
+      "contrast": 12
+     },
+     "measureChars": 85,
+     "max": {
+      "size": 72,
+      "vw": 5,
+      "font": "Inter",
+      "text": "Public Hazards. Real-time Dispatch."
+     },
+     "monoShare": 0,
+     "monoProseShare": 0,
+     "monoFamilies": [
+      "Lucida Console"
+     ],
+     "monoSamples": [
+      "+",
+      "−"
+     ],
+     "microLabels": 0,
+     "microLabelShare": 0,
+     "microSamples": [],
+     "upperShare": 0.01,
+     "centerShare": 0.02,
+     "smallText": 1
+    },
+    "eyebrows": [],
+    "numbered": [],
+    "color": {
+     "bodyBg": "#f8fafc",
+     "bodyBgHsl": {
+      "h": 210,
+      "s": 0.4,
+      "l": 0.98
+     },
+     "dark": false,
+     "sectionBgs": [
+      {
+       "color": "#f8fafc",
+       "top": 0,
+       "hsl": {
+        "h": 210,
+        "s": 0.4,
+        "l": 0.98
+       }
+      },
+      {
+       "color": "#070d1e",
+       "top": 106,
+       "hsl": {
+        "h": 224,
+        "s": 0.62,
+        "l": 0.07
+       }
+      },
+      {
+       "color": "#ffffff",
+       "top": 806,
+       "hsl": {
+        "h": 0,
+        "s": 0,
+        "l": 1
+       }
+      },
+      {
+       "color": "#0f172a",
+       "top": 1230,
+       "hsl": {
+        "h": 222,
+        "s": 0.47,
+        "l": 0.11
+       }
+      },
+      {
+       "color": "#dddddd",
+       "top": 2311,
+       "hsl": {
+        "h": 0,
+        "s": 0,
+        "l": 0.87
+       }
+      }
+     ],
+     "textColors": [
+      {
+       "color": "#475569",
+       "share": 0.29
+      },
+      {
+       "color": "#cbd5e1",
+       "share": 0.17
+      },
+      {
+       "color": "#94a3b8",
+       "share": 0.14
+      },
+      {
+       "color": "#334155",
+       "share": 0.14
+      },
+      {
+       "color": "#0b132b",
+       "share": 0.11
+      }
+     ],
+     "button": {
+      "bg": "#0f766e",
+      "hsl": {
+       "h": 175,
+       "s": 0.77,
+       "l": 0.26
+      },
+      "fg": "#ffffff"
+     },
+     "lowContrast": [
+      {
+       "text": "Mode:",
+       "ratio": 4.3,
+       "need": 4.5,
+       "size": 11,
+       "fg": "#64748b",
+       "bg": "#f1f5f9"
+      }
+     ]
+    },
+    "buttons": {
+     "count": 6,
+     "inHero": 6,
+     "radius": 8,
+     "height": 34,
+     "withShadow": 0,
+     "withGradient": 0,
+     "mono": 0,
+     "upper": 0,
+     "heroLabels": [
+      "Public Overview",
+      "Report an Infrastructure Hazard",
+      "Road",
+      "Electrical",
+      "Water"
+     ]
+    },
+    "surfaces": {
+     "shadowStatic": 0,
+     "shadowOverlay": 0,
+     "shadowSamples": [],
+     "gradients": 0,
+     "scrims": 0,
+     "gradientSamples": [],
+     "gradientText": 0,
+     "hairlines": 0,
+     "hairlineSamples": [],
+     "outlinedBoxes": 0,
+     "dashed": 0,
+     "blurred": 0,
+     "roundedBoxes": 11,
+     "boxRadius": 16,
+     "squareMedia": 14,
+     "roundedMedia": 0,
+     "mediaRadius": 0,
+     "textShadow": 0,
+     "cardRows": [
+      {
+       "count": 3,
+       "iconTopped": false,
+       "rounded": true,
+       "top": 1678
+      }
+     ]
+    },
+    "heroMedia": [],
+    "nav": {
+     "links": 7,
+     "fixed": true,
+     "height": 106,
+     "floatingPill": false,
+     "blur": false
+    },
+    "fontsLoaded": [
+     "inter"
+    ]
+   },
+   "consoleErrors": []
+  },
+  {
+   "width": 768,
+   "height": 1024,
+   "load": "load",
+   "screens": 5,
+   "filled": [
+    1,
+    0.75,
+    0.74,
+    0.68,
+    0.88
+   ],
+   "motion": {
+    "elements": 31,
+    "css": 4,
+    "transitions": 0,
+    "scripted": 27,
+    "videos": 0,
+    "playingVideos": 0
+   },
+   "metrics": {
+    "viewport": {
+     "w": 768,
+     "h": 1024
+    },
+    "page": {
+     "height": 4859,
+     "screens": 4.7,
+     "words": 685,
+     "img": 21,
+     "video": 0,
+     "canvas": 0,
+     "svg": 40,
+     "sections": 6,
+     "horizontalOverflow": 0,
+     "overflowCulprits": [],
+     "uiFragments": 18,
+     "uiAbuse": false,
+     "realPictures": 0,
+     "videoCount": 0,
+     "uiPictures": 5,
+     "pictureSamples": [],
+     "blendText": 0,
+     "sideScrollers": 0,
+     "brokenImages": [],
+     "emoji": []
+    },
+    "hero": {
+     "text": "Public Hazards. Real-time Dispatch.",
+     "words": 4,
+     "chars": 35,
+     "lines": 2,
+     "size": 60,
+     "vw": 7.8,
+     "font": "Inter",
+     "weight": 900,
+     "tracking": -0.025,
+     "leading": 1,
+     "upper": false,
+     "italic": false,
+     "mono": false,
+     "align": "left",
+     "position": "center",
+     "widthRatio": 0.94,
+     "top": 198,
+     "tag": "h1",
+     "kind": "heading"
+    },
+    "h1": {
+     "text": "Public Hazards. Real-time Dispatch.",
+     "words": 4,
+     "lines": 2,
+     "size": 60,
+     "font": "Inter"
+    },
+    "headings": [
+     {
+      "text": "Public Hazards. Real-time Dispatch.",
+      "words": 4,
+      "chars": 35,
+      "lines": 2,
+      "size": 60,
+      "vw": 7.8,
+      "font": "Inter",
+      "weight": 900,
+      "tracking": -0.025,
+      "leading": 1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.94,
+      "top": 198,
+      "tag": "h1",
+      "kind": "heading"
+     },
+     {
+      "text": "Municipal Operations Telemetry",
+      "words": 3,
+      "chars": 30,
+      "lines": 1,
+      "size": 30,
+      "vw": 3.9,
+      "font": "Inter",
+      "weight": 900,
+      "tracking": 0,
+      "leading": 1.2,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.83,
+      "top": 1346,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "5",
+      "words": 1,
+      "chars": 1,
+      "lines": 1,
+      "size": 48,
+      "vw": 6.3,
+      "font": "Inter",
+      "weight": 900,
+      "tracking": 0,
+      "leading": 1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.4,
+      "top": 1482,
+      "tag": "span",
+      "kind": "heading"
+     },
+     {
+      "text": "3",
+      "words": 1,
+      "chars": 1,
+      "lines": 1,
+      "size": 48,
+      "vw": 6.3,
+      "font": "Inter",
+      "weight": 900,
+      "tracking": 0,
+      "leading": 1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.4,
+      "top": 1482,
+      "tag": "span",
+      "kind": "heading"
+     },
+     {
+      "text": "2",
+      "words": 1,
+      "chars": 1,
+      "lines": 1,
+      "size": 48,
+      "vw": 6.3,
+      "font": "Inter",
+      "weight": 900,
+      "tracking": 0,
+      "leading": 1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.4,
+      "top": 1642,
+      "tag": "span",
+      "kind": "heading"
+     },
+     {
+      "text": "1",
+      "words": 1,
+      "chars": 1,
+      "lines": 1,
+      "size": 48,
+      "vw": 6.3,
+      "font": "Inter",
+      "weight": 900,
+      "tracking": 0,
+      "leading": 1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.4,
+      "top": 1642,
+      "tag": "span",
+      "kind": "heading"
+     },
+     {
+      "text": "Monthly District Capacity",
+      "words": 3,
+      "chars": 25,
+      "lines": 1,
+      "size": 36,
+      "vw": 4.7,
+      "font": "Inter",
+      "weight": 900,
+      "tracking": 0,
+      "leading": 1.11,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.81,
+      "top": 1938,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "1444",
+      "words": 1,
+      "chars": 4,
+      "lines": 1,
+      "size": 48,
+      "vw": 6.3,
+      "font": "Inter",
+      "weight": 900,
+      "tracking": 0,
+      "leading": 1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.34,
+      "top": 2234,
+      "tag": "span",
+      "kind": "heading"
+     },
+     {
+      "text": "3.9d",
+      "words": 1,
+      "chars": 4,
+      "lines": 1,
+      "size": 48,
+      "vw": 6.3,
+      "font": "Inter",
+      "weight": 900,
+      "tracking": 0,
+      "leading": 1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.34,
+      "top": 2234,
+      "tag": "span",
+      "kind": "heading"
+     },
+     {
+      "text": "From Citizen Report to Certified Repair",
+      "words": 6,
+      "chars": 39,
+      "lines": 1,
+      "size": 36,
+      "vw": 4.7,
+      "font": "Inter",
+      "weight": 900,
+      "tracking": 0,
+      "leading": 1.11,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.94,
+      "top": 2580,
+      "tag": "h2",
+      "kind": "heading"
+     }
+    ],
+    "headingSummary": {
+     "count": 10,
+     "maxLines": 2,
+     "over2Lines": 0,
+     "statements": 0,
+     "centered": 0,
+     "medianWords": 1,
+     "mixedFontHeadings": 0
+    },
+    "type": {
+     "families": [
+      {
+       "family": "Inter",
+       "share": 0.99,
+       "mono": false
+      },
+      {
+       "family": "Helvetica Neue",
+       "share": 0.01,
+       "mono": false
+      },
+      {
+       "family": "Lucida Console",
+       "share": 0,
+       "mono": true
+      }
+     ],
+     "familyCount": 3,
+     "sizes": [
+      10,
+      12,
+      14,
+      16,
+      20,
+      24,
+      30,
+      36,
+      48,
+      60
+     ],
+     "sizeCount": 10,
+     "notLoaded": [
+      "Lucida Console"
+     ],
+     "body": {
+      "font": "Inter",
+      "size": 16,
+      "leading": 1.5,
+      "weight": 400,
+      "tracking": 0,
+      "contrast": 12
+     },
+     "measureChars": 49,
+     "max": {
+      "size": 60,
+      "vw": 7.8,
+      "font": "Inter",
+      "text": "Public Hazards. Real-time Dispatch."
+     },
+     "monoShare": 0,
+     "monoProseShare": 0,
+     "monoFamilies": [
+      "Lucida Console"
+     ],
+     "monoSamples": [
+      "+",
+      "−"
+     ],
+     "microLabels": 0,
+     "microLabelShare": 0,
+     "microSamples": [],
+     "upperShare": 0.01,
+     "centerShare": 0.02,
+     "smallText": 1
+    },
+    "eyebrows": [],
+    "numbered": [],
+    "color": {
+     "bodyBg": "#f8fafc",
+     "bodyBgHsl": {
+      "h": 210,
+      "s": 0.4,
+      "l": 0.98
+     },
+     "dark": false,
+     "sectionBgs": [
+      {
+       "color": "#f8fafc",
+       "top": 0,
+       "hsl": {
+        "h": 210,
+        "s": 0.4,
+        "l": 0.98
+       }
+      },
+      {
+       "color": "#070d1e",
+       "top": 134,
+       "hsl": {
+        "h": 224,
+        "s": 0.62,
+        "l": 0.07
+       }
+      },
+      {
+       "color": "#0f172a",
+       "top": 698,
+       "hsl": {
+        "h": 222,
+        "s": 0.47,
+        "l": 0.11
+       }
+      },
+      {
+       "color": "#ffffff",
+       "top": 1306,
+       "hsl": {
+        "h": 0,
+        "s": 0,
+        "l": 1
+       }
+      },
+      {
+       "color": "#dddddd",
+       "top": 3385,
+       "hsl": {
+        "h": 0,
+        "s": 0,
+        "l": 0.87
+       }
+      }
+     ],
+     "textColors": [
+      {
+       "color": "#475569",
+       "share": 0.29
+      },
+      {
+       "color": "#cbd5e1",
+       "share": 0.17
+      },
+      {
+       "color": "#94a3b8",
+       "share": 0.15
+      },
+      {
+       "color": "#334155",
+       "share": 0.13
+      },
+      {
+       "color": "#0b132b",
+       "share": 0.11
+      }
+     ],
+     "button": {
+      "bg": "#0f766e",
+      "hsl": {
+       "h": 175,
+       "s": 0.77,
+       "l": 0.26
+      },
+      "fg": "#ffffff"
+     },
+     "lowContrast": [
+      {
+       "text": "My Area",
+       "ratio": 3.7,
+       "need": 4.5,
+       "size": 12,
+       "fg": "#ffffff",
+       "bg": "#0d9488"
+      }
+     ]
+    },
+    "buttons": {
+     "count": 5,
+     "inHero": 4,
+     "radius": 8,
+     "height": 34,
+     "withShadow": 0,
+     "withGradient": 0,
+     "mono": 0,
+     "upper": 0,
+     "heroLabels": [
+      "Report an Infrastructure Hazard",
+      "Road",
+      "Electrical",
+      "Water"
+     ]
+    },
+    "surfaces": {
+     "shadowStatic": 0,
+     "shadowOverlay": 0,
+     "shadowSamples": [],
+     "gradients": 0,
+     "scrims": 0,
+     "gradientSamples": [],
+     "gradientText": 0,
+     "hairlines": 0,
+     "hairlineSamples": [],
+     "outlinedBoxes": 0,
+     "dashed": 0,
+     "blurred": 0,
+     "roundedBoxes": 11,
+     "boxRadius": 16,
+     "squareMedia": 0,
+     "roundedMedia": 0,
+     "mediaRadius": 0,
+     "textShadow": 0,
+     "cardRows": []
+    },
+    "heroMedia": [],
+    "nav": {
+     "links": 1,
+     "fixed": true,
+     "height": 134,
+     "floatingPill": false,
+     "blur": false
+    },
+    "fontsLoaded": [
+     "inter"
+    ]
+   },
+   "consoleErrors": []
+  },
+  {
+   "width": 390,
+   "height": 844,
+   "load": "load",
+   "screens": 8,
+   "filled": [
+    1,
+    0.84,
+    0.87,
+    0.8,
+    0.8,
+    0.78,
+    0.91,
+    0.93
+   ],
+   "motion": {
+    "elements": 29,
+    "css": 4,
+    "transitions": 0,
+    "scripted": 25,
+    "videos": 0,
+    "playingVideos": 0
+   },
+   "metrics": {
+    "viewport": {
+     "w": 390,
+     "h": 844
+    },
+    "page": {
+     "height": 6275,
+     "screens": 7.4,
+     "words": 674,
+     "img": 13,
+     "video": 0,
+     "canvas": 0,
+     "svg": 40,
+     "sections": 6,
+     "horizontalOverflow": 0,
+     "overflowCulprits": [],
+     "uiFragments": 18,
+     "uiAbuse": false,
+     "realPictures": 0,
+     "videoCount": 0,
+     "uiPictures": 5,
+     "pictureSamples": [],
+     "blendText": 0,
+     "sideScrollers": 0,
+     "brokenImages": [],
+     "emoji": []
+    },
+    "hero": {
+     "text": "Public Hazards. Real-time Dispatch.",
+     "words": 4,
+     "chars": 35,
+     "lines": 2,
+     "size": 36,
+     "vw": 9.2,
+     "font": "Inter",
+     "weight": 900,
+     "tracking": -0.025,
+     "leading": 1.25,
+     "upper": false,
+     "italic": false,
+     "mono": false,
+     "align": "left",
+     "position": "center",
+     "widthRatio": 0.92,
+     "top": 198,
+     "tag": "h1",
+     "kind": "heading"
+    },
+    "h1": {
+     "text": "Public Hazards. Real-time Dispatch.",
+     "words": 4,
+     "lines": 2,
+     "size": 36,
+     "font": "Inter"
+    },
+    "headings": [
+     {
+      "text": "Public Hazards. Real-time Dispatch.",
+      "words": 4,
+      "chars": 35,
+      "lines": 2,
+      "size": 36,
+      "vw": 9.2,
+      "font": "Inter",
+      "weight": 900,
+      "tracking": -0.025,
+      "leading": 1.25,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.92,
+      "top": 198,
+      "tag": "h1",
+      "kind": "heading"
+     },
+     {
+      "text": "Municipal Operations Telemetry",
+      "words": 3,
+      "chars": 30,
+      "lines": 2,
+      "size": 24,
+      "vw": 6.2,
+      "font": "Inter",
+      "weight": 900,
+      "tracking": 0,
+      "leading": 1.25,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.75,
+      "top": 1479,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "5",
+      "words": 1,
+      "chars": 1,
+      "lines": 1,
+      "size": 48,
+      "vw": 12.3,
+      "font": "Inter",
+      "weight": 900,
+      "tracking": 0,
+      "leading": 1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.75,
+      "top": 1665,
+      "tag": "span",
+      "kind": "heading"
+     },
+     {
+      "text": "3",
+      "words": 1,
+      "chars": 1,
+      "lines": 1,
+      "size": 48,
+      "vw": 12.3,
+      "font": "Inter",
+      "weight": 900,
+      "tracking": 0,
+      "leading": 1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.75,
+      "top": 1825,
+      "tag": "span",
+      "kind": "heading"
+     },
+     {
+      "text": "2",
+      "words": 1,
+      "chars": 1,
+      "lines": 1,
+      "size": 48,
+      "vw": 12.3,
+      "font": "Inter",
+      "weight": 900,
+      "tracking": 0,
+      "leading": 1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.75,
+      "top": 1985,
+      "tag": "span",
+      "kind": "heading"
+     },
+     {
+      "text": "1",
+      "words": 1,
+      "chars": 1,
+      "lines": 1,
+      "size": 48,
+      "vw": 12.3,
+      "font": "Inter",
+      "weight": 900,
+      "tracking": 0,
+      "leading": 1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.75,
+      "top": 2145,
+      "tag": "span",
+      "kind": "heading"
+     },
+     {
+      "text": "Monthly District Capacity",
+      "words": 3,
+      "chars": 25,
+      "lines": 2,
+      "size": 24,
+      "vw": 6.2,
+      "font": "Inter",
+      "weight": 900,
+      "tracking": 0,
+      "leading": 1.25,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.75,
+      "top": 2417,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "1444",
+      "words": 1,
+      "chars": 4,
+      "lines": 1,
+      "size": 48,
+      "vw": 12.3,
+      "font": "Inter",
+      "weight": 900,
+      "tracking": 0,
+      "leading": 1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.25,
+      "top": 2831,
+      "tag": "span",
+      "kind": "heading"
+     },
+     {
+      "text": "3.9d",
+      "words": 1,
+      "chars": 4,
+      "lines": 1,
+      "size": 48,
+      "vw": 12.3,
+      "font": "Inter",
+      "weight": 900,
+      "tracking": 0,
+      "leading": 1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.25,
+      "top": 2831,
+      "tag": "span",
+      "kind": "heading"
+     },
+     {
+      "text": "From Citizen Report to Certified Repair",
+      "words": 6,
+      "chars": 39,
+      "lines": 2,
+      "size": 30,
+      "vw": 7.7,
+      "font": "Inter",
+      "weight": 900,
+      "tracking": 0,
+      "leading": 1.25,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.92,
+      "top": 3269,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Live Incident Map",
+      "words": 3,
+      "chars": 17,
+      "lines": 1,
+      "size": 24,
+      "vw": 6.2,
+      "font": "Inter",
+      "weight": 700,
+      "tracking": 0,
+      "leading": 1.33,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.92,
+      "top": 4142,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "+",
+      "words": 1,
+      "chars": 1,
+      "lines": 1,
+      "size": 22,
+      "vw": 5.6,
+      "font": "Lucida Console",
+      "weight": 700,
+      "tracking": 0,
+      "leading": 1.36,
+      "upper": false,
+      "italic": false,
+      "mono": true,
+      "align": "center",
+      "position": "left",
+      "widthRatio": 0.08,
+      "top": 4395,
+      "tag": "a",
+      "kind": "heading"
+     },
+     {
+      "text": "−",
+      "words": 1,
+      "chars": 1,
+      "lines": 1,
+      "size": 22,
+      "vw": 5.6,
+      "font": "Lucida Console",
+      "weight": 700,
+      "tracking": 0,
+      "leading": 1.36,
+      "upper": false,
+      "italic": false,
+      "mono": true,
+      "align": "center",
+      "position": "left",
+      "widthRatio": 0.08,
+      "top": 4425,
+      "tag": "a",
+      "kind": "heading"
+     },
+     {
+      "text": "Recent Public Incident Reports",
+      "words": 4,
+      "chars": 30,
+      "lines": 2,
+      "size": 24,
+      "vw": 6.2,
+      "font": "Inter",
+      "weight": 700,
+      "tracking": 0,
+      "leading": 1.33,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.76,
+      "top": 4959,
+      "tag": "h2",
+      "kind": "heading"
+     }
+    ],
+    "headingSummary": {
+     "count": 14,
+     "maxLines": 2,
+     "over2Lines": 0,
+     "statements": 0,
+     "centered": 2,
+     "medianWords": 1,
+     "mixedFontHeadings": 0
+    },
+    "type": {
+     "families": [
+      {
+       "family": "Inter",
+       "share": 0.99,
+       "mono": false
+      },
+      {
+       "family": "Helvetica Neue",
+       "share": 0.01,
+       "mono": false
+      },
+      {
+       "family": "Lucida Console",
+       "share": 0,
+       "mono": true
+      }
+     ],
+     "familyCount": 3,
+     "sizes": [
+      10,
+      12,
+      14,
+      16,
+      18,
+      20,
+      24,
+      30,
+      36,
+      48
+     ],
+     "sizeCount": 10,
+     "notLoaded": [
+      "Lucida Console"
+     ],
+     "body": {
+      "font": "Inter",
+      "size": 16,
+      "leading": 1.5,
+      "weight": 400,
+      "tracking": 0,
+      "contrast": 12
+     },
+     "measureChars": 51,
+     "max": {
+      "size": 48,
+      "vw": 12.3,
+      "font": "Inter",
+      "text": "5"
+     },
+     "monoShare": 0,
+     "monoProseShare": 0,
+     "monoFamilies": [
+      "Lucida Console"
+     ],
+     "monoSamples": [
+      "+",
+      "−"
+     ],
+     "microLabels": 0,
+     "microLabelShare": 0,
+     "microSamples": [],
+     "upperShare": 0.01,
+     "centerShare": 0.02,
+     "smallText": 0
+    },
+    "eyebrows": [],
+    "numbered": [],
+    "color": {
+     "bodyBg": "#f8fafc",
+     "bodyBgHsl": {
+      "h": 210,
+      "s": 0.4,
+      "l": 0.98
+     },
+     "dark": false,
+     "sectionBgs": [
+      {
+       "color": "#f8fafc",
+       "top": 0,
+       "hsl": {
+        "h": 210,
+        "s": 0.4,
+        "l": 0.98
+       }
+      },
+      {
+       "color": "#070d1e",
+       "top": 134,
+       "hsl": {
+        "h": 224,
+        "s": 0.62,
+        "l": 0.07
+       }
+      },
+      {
+       "color": "#0f172a",
+       "top": 819,
+       "hsl": {
+        "h": 222,
+        "s": 0.47,
+        "l": 0.11
+       }
+      },
+      {
+       "color": "#ffffff",
+       "top": 1447,
+       "hsl": {
+        "h": 0,
+        "s": 0,
+        "l": 1
+       }
+      },
+      {
+       "color": "#020617",
+       "top": 2799,
+       "hsl": {
+        "h": 229,
+        "s": 0.84,
+        "l": 0.05
+       }
+      },
+      {
+       "color": "#dddddd",
+       "top": 4383,
+       "hsl": {
+        "h": 0,
+        "s": 0,
+        "l": 0.87
+       }
+      }
+     ],
+     "textColors": [
+      {
+       "color": "#475569",
+       "share": 0.29
+      },
+      {
+       "color": "#cbd5e1",
+       "share": 0.17
+      },
+      {
+       "color": "#94a3b8",
+       "share": 0.15
+      },
+      {
+       "color": "#334155",
+       "share": 0.14
+      },
+      {
+       "color": "#0b132b",
+       "share": 0.11
+      }
+     ],
+     "button": {
+      "bg": "#0f766e",
+      "hsl": {
+       "h": 175,
+       "s": 0.77,
+       "l": 0.26
+      },
+      "fg": "#ffffff"
+     },
+     "lowContrast": [
+      {
+       "text": "My Area",
+       "ratio": 3.7,
+       "need": 4.5,
+       "size": 12,
+       "fg": "#ffffff",
+       "bg": "#0d9488"
+      }
+     ]
+    },
+    "buttons": {
+     "count": 5,
+     "inHero": 1,
+     "radius": 8,
+     "height": 34,
+     "withShadow": 0,
+     "withGradient": 0,
+     "mono": 0,
+     "upper": 0,
+     "heroLabels": [
+      "Report an Infrastructure Hazard"
+     ]
+    },
+    "surfaces": {
+     "shadowStatic": 0,
+     "shadowOverlay": 0,
+     "shadowSamples": [],
+     "gradients": 0,
+     "scrims": 0,
+     "gradientSamples": [],
+     "gradientText": 0,
+     "hairlines": 0,
+     "hairlineSamples": [],
+     "outlinedBoxes": 0,
+     "dashed": 0,
+     "blurred": 0,
+     "roundedBoxes": 11,
+     "boxRadius": 16,
+     "squareMedia": 0,
+     "roundedMedia": 0,
+     "mediaRadius": 0,
+     "textShadow": 0,
+     "cardRows": []
+    },
+    "heroMedia": [],
+    "nav": {
+     "links": 1,
+     "fixed": true,
+     "height": 134,
+     "floatingPill": false,
+     "blur": false
+    },
+    "fontsLoaded": [
+     "inter"
+    ]
+   },
+   "consoleErrors": []
+  }
+ ],
+ "findings": [
+  {
+   "level": "WARN",
+   "id": "contrast",
+   "width": 1440,
+   "message": "Low-contrast text: \"Mode:\" 4.3:1 needs 4.5:1",
+   "fix": "Darken or lighten the text colour.",
+   "alsoAt": [
+    768,
+    390
+   ]
+  },
+  {
+   "level": "WARN",
+   "id": "font-fallback",
+   "width": 1440,
+   "message": "Typeface(s) declared but not loaded, so a fallback is rendering: Lucida Console",
+   "fix": "Fix the font URL / family name, or the screenshots you are judging are not the design.",
+   "alsoAt": [
+    768,
+    390
+   ]
+  },
+  {
+   "level": "WARN",
+   "id": "size-count",
+   "width": 1440,
+   "message": "11 different font sizes (10, 11, 12, 14, 16, 20, 24, 30, 36, 48, 72).",
+   "fix": "A page needs about five: display, heading, lead, body, small.",
+   "alsoAt": [
+    768,
+    390
+   ]
+  },
+  {
+   "level": "WARN",
+   "id": "no-real-pictures",
+   "width": 1440,
+   "message": "Only 0 real photograph(s) or clip(s); the rest are interface fragments.",
+   "fix": "Add two or more real pictures of the customer's world from scripts/assets.mjs, not stock of people at laptops."
+  },
+  {
+   "level": "WARN",
+   "id": "no-footage",
+   "width": 1440,
+   "message": "No video anywhere on the page.",
+   "fix": "Look for one honest clip with scripts/assets.mjs --video (the place, the material, the process) and use it as a muted loop with a poster frame. Defend its absence only if no clip fits the subject."
+  },
+  {
+   "level": "WARN",
+   "id": "small-text",
+   "width": 1440,
+   "message": "1 text block(s) under 13px.",
+   "fix": "Nothing meant to be read goes below 13px.",
+   "alsoAt": [
+    768
+   ]
+  }
+ ],
+ "images": [
+  {
+   "viewport": "desktop",
+   "width": 1440,
+   "fold": "C:\\Users\\Rahul Mukesh\\OneDrive\\Desktop\\Buildathon\\.taste-skill\\inspect\\desktop-fold.jpg",
+   "pages": [
+    "C:\\Users\\Rahul Mukesh\\OneDrive\\Desktop\\Buildathon\\.taste-skill\\inspect\\desktop-page-01.jpg",
+    "C:\\Users\\Rahul Mukesh\\OneDrive\\Desktop\\Buildathon\\.taste-skill\\inspect\\desktop-page-02.jpg"
+   ]
+  },
+  {
+   "viewport": "tablet",
+   "width": 768,
+   "fold": "C:\\Users\\Rahul Mukesh\\OneDrive\\Desktop\\Buildathon\\.taste-skill\\inspect\\tablet-fold.jpg",
+   "pages": [
+    "C:\\Users\\Rahul Mukesh\\OneDrive\\Desktop\\Buildathon\\.taste-skill\\inspect\\tablet-page-01.jpg"
+   ]
+  },
+  {
+   "viewport": "mobile",
+   "width": 390,
+   "fold": "C:\\Users\\Rahul Mukesh\\OneDrive\\Desktop\\Buildathon\\.taste-skill\\inspect\\mobile-fold.jpg",
+   "pages": [
+    "C:\\Users\\Rahul Mukesh\\OneDrive\\Desktop\\Buildathon\\.taste-skill\\inspect\\mobile-page-01.jpg"
+   ]
+  }
+ ]
+}

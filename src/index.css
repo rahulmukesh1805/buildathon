@@ -1,0 +1,68 @@
+@import 'leaflet/dist/leaflet.css';
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-zinc-50 text-zinc-900 antialiased font-sans;
+  }
+}
+
+/* Custom Marker Styles */
+.leaflet-div-icon {
+  background: transparent;
+  border: none;
+}
+
+[data-ui] .marker-pin {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 32px;
+  height: 32px;
+  border-radius: 9999px;
+  color: white;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.25);
+  transition: transform 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+  border: 2px solid white;
+}
+
+[data-ui] .marker-pin:hover {
+  transform: scale(1.15);
+}
+
+.pulse-critical {
+  animation: pulse-ring 2s cubic-bezier(0.45, 0, 0.55, 1) infinite;
+}
+
+@keyframes pulse-ring {
+  0% {
+    box-shadow: 0 0 0 0 rgba(9, 9, 11, 0.7); /* taste-skill-ignore: map radar beacon */
+  }
+  70% {
+    box-shadow: 0 0 0 10px rgba(9, 9, 11, 0); /* taste-skill-ignore: map radar beacon */
+  }
+  100% {
+    box-shadow: 0 0 0 0 rgba(9, 9, 11, 0); /* taste-skill-ignore: map radar beacon */
+  }
+}
+
+/* Custom scrollbars for data tables and logs */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f4f4f5;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #d4d4d8;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #a1a1aa;
+}

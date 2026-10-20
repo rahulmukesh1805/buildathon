@@ -25,7 +25,7 @@ Open your browser at: **`http://localhost:5173/`**
 - **Frontend**: React 19, Vite, JavaScript
 - **Styling**: Tailwind CSS with custom municipal civic theme (Deep Navy `#0B132B`, White, Teal `#0D9488`, and severity badges)
 - **Routing**: React Router DOM (Role-aware navigation for Citizens, Admins, and Field Crews)
-- **Maps**: Leaflet + OpenStreetMap (interactive dual-mode: Explorer & Location Pin Picker)
+- **Maps & Satellite GIS**: Leaflet with real-world high-resolution orbital satellite imagery (Esri World Imagery), Satellite Hybrid (satellite + road/place overlays), and OpenStreetMap cartography with layer switching
 - **Icons**: Lucide React
 - **Analytics**: Recharts (category bar charts and status distribution pie charts)
 - **Database**: Supabase PostgreSQL with Row Level Security (RLS) policies and seed data
@@ -43,7 +43,7 @@ Buildathon/
 ├── src/
 │   ├── components/
 │   │   ├── Navigation.jsx     # Header with role switcher (Citizen, Admin, Crew), notifications & alerts
-│   │   └── IncidentMap.jsx    # Dual-mode Leaflet map (Explorer view & Pin Picker)
+│   │   └── IncidentMap.jsx    # Dual-mode Leaflet GIS map (Real-World Satellite, Hybrid & Street views)
 │   ├── context/
 │   │   └── AppContext.jsx     # Central state, role switching, Supabase sync & localStorage fallback
 │   ├── lib/

@@ -24,9 +24,11 @@ import {
   Sun, 
   Volume2,
   MapPin,
-  Lock
+  Lock,
+  Satellite
 } from 'lucide-react';
 import { exportIncidentsToCSV, printMunicipalBriefing } from '../lib/exportUtils';
+import IncidentMap from '../components/IncidentMap';
 
 const CREW_TEAMS = [
   { id: 'crew-01', name: 'Crew Alpha — High Voltage Quick Response', dept: 'Electrical Services' },
@@ -618,6 +620,30 @@ export default function AdminDashboard() {
                   <div className="bg-slate-100 p-2.5 rounded-lg text-slate-700 text-[11px] flex items-center gap-1.5">
                     <Lock className="w-3.5 h-3.5 text-slate-500 shrink-0" />
                     <span>Reporter Contact: {selectedIncident.reporter_name} ({selectedIncident.reporter_contact})</span>
+                  </div>
+                )}
+
+                {/* Satellite Aerial Site Inspection */}
+                {selectedIncident.latitude && selectedIncident.longitude && (
+                  <div className="space-y-1.5 pt-2">
+                    <div className="flex items-center justify-between">
+                      <h4 className="font-bold text-navy-900 text-xs flex items-center gap-1.5">
+                        <Satellite className="w-3.5 h-3.5 text-teal-600" />
+                        <span>Satellite Aerial Reconnaissance</span>
+                      </h4>
+                      <span className="text-[10px] font-semibold text-teal-800 bg-teal-50 px-2 py-0.5 rounded border border-teal-200">
+                        {selectedIncident.latitude.toFixed(5)}, {selectedIncident.longitude.toFixed(5)}
+                      </span>
+                    </div>
+                    <div className="overflow-hidden rounded-xl border border-slate-200 shadow-xs">
+                      <IncidentMap 
+                        incidents={[selectedIncident]} 
+                        singleIncident={selectedIncident} 
+                        height="200px" 
+                        defaultMapType="satellite" 
+                        showControls={false}
+                      />
+                    </div>
                   </div>
                 )}
               </div>

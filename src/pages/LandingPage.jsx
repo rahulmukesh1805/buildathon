@@ -408,9 +408,14 @@ export default function LandingPage() {
       <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 space-y-4">
         <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-2">
           <div>
-            <h2 className="text-2xl font-bold text-zinc-950">Live Incident Map</h2>
+            <div className="flex items-center gap-2 mb-1">
+              <span className="inline-flex items-center gap-1 text-[11px] font-bold uppercase tracking-wider text-teal-700 bg-teal-50 px-2 py-0.5 rounded border border-teal-200">
+                🛰️ Real-World Satellite GIS
+              </span>
+            </div>
+            <h2 className="text-2xl font-bold text-zinc-950">Live Municipal Hazard Satellite Map</h2>
             <p className="text-base text-zinc-600">
-              Geographic overview of reported municipal hazards with real-time severity markers.
+              Explore municipal hazard reports overlaid on real-world high-resolution satellite imagery and labeled road networks.
             </p>
           </div>
           <Link
@@ -422,7 +427,7 @@ export default function LandingPage() {
           </Link>
         </div>
 
-        <IncidentMap incidents={incidents} height="420px" />
+        <IncidentMap incidents={incidents} height="420px" defaultMapType="satellite" />
       </section>
 
       {/* Recently Reported Incidents Feed (Tabular Municipal Dispatch Log) */}

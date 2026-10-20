@@ -490,8 +490,11 @@ export default function ReportHazardPage() {
           {/* Map Location Picker */}
           <div>
             <div className="flex items-center justify-between mb-2">
-              <span className="text-xs font-bold text-slate-700">Interactive Map Pinpoint</span>
-              <span className="text-xs font-semibold text-teal-900 bg-teal-50 px-2.5 py-0.5 rounded border border-teal-200 tabular-nums">
+              <div>
+                <span className="text-xs font-bold text-slate-700 block">Interactive Satellite Map Pinpoint</span>
+                <span className="text-[11px] text-slate-500">Switch between Satellite, Hybrid, and Street views to pinpoint ground details.</span>
+              </div>
+              <span className="text-xs font-semibold text-teal-900 bg-teal-50 px-2.5 py-0.5 rounded border border-teal-200 tabular-nums self-start">
                 {location.lat.toFixed(5)}, {location.lng.toFixed(5)}
               </span>
             </div>
@@ -499,7 +502,8 @@ export default function ReportHazardPage() {
               pickerMode={true}
               selectedLocation={location}
               onLocationSelect={(coords) => setLocation(coords)}
-              height="300px"
+              height="320px"
+              defaultMapType="satellite"
             />
           </div>
         </div>

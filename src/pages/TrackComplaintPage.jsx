@@ -12,8 +12,10 @@ import {
   ShieldCheck,
   Volume2,
   Clock,
-  User
+  User,
+  Satellite
 } from 'lucide-react';
+import IncidentMap from '../components/IncidentMap';
 
 const STAGES = [
   { key: 'reported', label: 'Reported', desc: 'Complaint registered by citizen' },
@@ -299,6 +301,30 @@ export default function TrackComplaintPage() {
                         "{currentIncident.audio_transcript}"
                       </p>
                     )}
+                  </div>
+                )}
+
+                {/* Satellite Hazard GIS Location Preview */}
+                {currentIncident.latitude && currentIncident.longitude && (
+                  <div className="space-y-2 pt-2">
+                    <div className="flex items-center justify-between">
+                      <span className="text-xs font-bold text-slate-700 flex items-center gap-1.5">
+                        <Satellite className="w-4 h-4 text-teal-700" />
+                        <span>Real-World Satellite GIS Location ({currentIncident.latitude.toFixed(5)}, {currentIncident.longitude.toFixed(5)})</span>
+                      </span>
+                      <span className="text-[11px] font-semibold text-teal-800 bg-teal-50 px-2 py-0.5 rounded border border-teal-200">
+                        🛰️ Orbital Telemetry
+                      </span>
+                    </div>
+                    <div className="overflow-hidden rounded-xl border border-slate-200 shadow-xs">
+                      <IncidentMap 
+                        incidents={[currentIncident]} 
+                        singleIncident={currentIncident} 
+                        height="260px" 
+                        defaultMapType="satellite" 
+                        showControls={false}
+                      />
+                    </div>
                   </div>
                 )}
               </div>
